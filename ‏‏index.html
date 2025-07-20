@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أروى مريحيل | فنانة رسم</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --main-color: #7e3ff2;
+      --accent-color: #f2b705;
+      --bg-gradient: linear-gradient(135deg, #f8fafc 0%, #e9d5ff 100%);
+      --card-bg: #fff;
+      --shadow: 0 4px 24px rgba(126, 63, 242, 0.08);
+    }
+    * {
+      box-sizing: border-box;
+      font-family: 'Cairo', sans-serif;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: var(--bg-gradient);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      background: var(--card-bg);
+      box-shadow: var(--shadow);
+      border-radius: 24px;
+      padding: 2.5rem 1.5rem 2rem 1.5rem;
+      max-width: 370px;
+      width: 95vw;
+      text-align: center;
+      margin: 1.5rem 0;
+      position: relative;
+    }
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--main-color);
+      margin-top: -70px;
+      background: #eee;
+      box-shadow: 0 2px 12px rgba(126, 63, 242, 0.10);
+    }
+    h1 {
+      margin: 1.2rem 0 0.5rem 0;
+      font-size: 2.1rem;
+      color: var(--main-color);
+      letter-spacing: 1px;
+    }
+    .subtitle {
+      color: #555;
+      font-size: 1.1rem;
+      margin-bottom: 1.2rem;
+    }
+    .art {
+      width: 100%;
+      border-radius: 18px;
+      margin: 1.2rem 0;
+      box-shadow: 0 2px 8px rgba(126, 63, 242, 0.07);
+    }
+    .about {
+      color: #333;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.7;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--main-color);
+      color: #fff;
+      padding: 0.7rem 2.2rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 2px 8px rgba(126, 63, 242, 0.13);
+      transition: background 0.2s;
+      margin-top: 0.5rem;
+    }
+    .btn:hover {
+      background: var(--accent-color);
+      color: var(--main-color);
+    }
+    @media (max-width: 500px) {
+      .container {
+        padding: 2rem 0.5rem 1.5rem 0.5rem;
+        max-width: 98vw;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      .about {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>أروى مريحيل</h1>
+    <div class="subtitle">فنانة رسم</div>
+    <img class="art" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="لوحة فنية">
+    <div class="about">
+      مرحباً! أنا أروى، فنانة شغوفة بالرسم والألوان.<br>
+      أعبّر عن مشاعري وأحلامي عبر لوحاتي الفنية.<br>
+      أؤمن أن الفن لغة الروح وجمال الحياة.<br>
+      <span style="color:var(--main-color);font-weight:bold;">شكراً لزيارتك!</span>
+    </div>
+    <a class="btn" href="https://www.instagram.com/arwa.mr03?igsh=dzh2cWhnZ3Y2aXV4" target="_blank" rel="noopener">تواصل معي</a>
+  </div>
+</body>
+</html> 
